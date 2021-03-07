@@ -6,7 +6,7 @@ import matriculaRouter from './matricula.route';
 import pagosRouter from './pagos.route';
 import docentesRouter from './docentes.route';
 import usuariosRouter from './usuarios.route';
-import { login } from 'src/controllers/usuario.controller';
+import { login } from '../controllers/usuario.controller';
 // Init router and path
 const router = Router();
 

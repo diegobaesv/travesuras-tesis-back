@@ -10,7 +10,7 @@ const matricula_route_1 = __importDefault(require("./matricula.route"));
 const pagos_route_1 = __importDefault(require("./pagos.route"));
 const docentes_route_1 = __importDefault(require("./docentes.route"));
 const usuarios_route_1 = __importDefault(require("./usuarios.route"));
-const usuario_controller_1 = require("src/controllers/usuario.controller");
+const usuario_controller_1 = require("../controllers/usuario.controller");
 // Init router and path
 const router = express_1.Router();
 // Add sub-routes

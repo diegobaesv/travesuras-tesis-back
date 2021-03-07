@@ -3,10 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const _server_1 = __importDefault(require("@server"));
-const Logger_1 = __importDefault(require("@shared/Logger"));
-// Start the server
-const port = Number(process.env.PORT || 3000);
-_server_1.default.listen(port, () => {
-    Logger_1.default.info('Express server started on port: ' + port);
-});
+const Server_1 = __importDefault(require("./Server"));
+async function main() {
+    await Server_1.default.listen(Server_1.default.get('port'));
+    console.log("Servidor en puerto", Server_1.default.get('port'));
+}
+main();

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { createMatricula, getEstadoMatriculaByAlumno } from 'src/controllers/matricula.controller';
+import { createMatricula, getEstadoMatriculaByAlumno } from '../controllers/matricula.controller';
 const router = Router();
 
 router.route('/')

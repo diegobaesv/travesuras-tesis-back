@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { buscarPorNombre, getAlumnos, getAlumnosByAmbienteId } from 'src/controllers/alumno.controller';
+import { buscarPorNombre, getAlumnos, getAlumnosByAmbienteId } from '../controllers/alumno.controller';
 
 const router = Router();
 

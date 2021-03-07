@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { createPago, getPagosByAlumno } from 'src/controllers/pago.controller';
+import { createPago, getPagosByAlumno } from '../controllers/pago.controller';
 const router = Router();
 
 router.route('/')

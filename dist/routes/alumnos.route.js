@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = require("express");
-const alumno_controller_1 = require("src/controllers/alumno.controller");
+const alumno_controller_1 = require("../controllers/alumno.controller");
 const router = express_1.Router();
 router.route('/')
     .get(alumno_controller_1.getAlumnos);

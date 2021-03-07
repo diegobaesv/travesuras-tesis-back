@@ -1,9 +1,8 @@
-import app from '@server';
-import logger from '@shared/Logger';
+import app from './Server';
 
+async function main() {
+     await app.listen(app.get('port'));
+    console.log("Servidor en puerto", app.get('port'));
+}
 
-// Start the server
-const port = Number(process.env.PORT || 3000);
-app.listen(port, () => {
-    logger.info('Express server started on port: ' + port);
-});
+main();

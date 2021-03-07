@@ -1,7 +1,7 @@
 import Matricula from '../models/Matricula';
 import DistribucionAmbiente from '../models/DistribucionAmbiente';
 import { Request, Response } from 'express';
-import Alumno from '@entities/Alumno';
+import Alumno from '../models/Alumno';
 
 export async function createMatricula(req: Request, res: Response) {
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getAmbientes } from 'src/controllers/ambiente.controller';
+import { getAmbientes } from '../controllers/ambiente.controller';
 const router = Router();
 
 router.route('/')

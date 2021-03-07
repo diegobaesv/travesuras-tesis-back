@@ -1,11 +1,11 @@
 
 import Alumno from "../models/Alumno";
 import { Request, Response } from 'express';
-import { sequelize } from "src/config/database";
+import { sequelize } from "../config/database";
 import Apoderado from "../models/Apoderado";
 import DistribucionAmbiente from "../models/DistribucionAmbiente";
 import Nivel from "../models/Nivel";
-import Aula from "@entities/Aula";
+import Aula from "../models/Aula";
 const { Op } = require("sequelize");
 
 
