@@ -2,7 +2,7 @@
   "name": "travesuras-tesis-back",
   "version": "0.0.0",
   "scripts": {
-    "build": "ts-node build.ts",
+    "build": "nodemon",
     "lint": "eslint . --ext .ts",
     "start":"nodemon",
     "dev": "nodemon",
