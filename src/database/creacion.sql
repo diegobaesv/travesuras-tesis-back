@@ -35,7 +35,7 @@ CREATE TABLE alumnos(
     CONSTRAINT fk_apoderado
       FOREIGN KEY(id_apoderado) 
 	  REFERENCES apoderados(id_apoderado)
-      ON DELETE CASCADE,
+      ON DELETE CASCADE
 
 
 );
